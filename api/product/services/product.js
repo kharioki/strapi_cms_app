@@ -5,9 +5,4 @@
  * to customize this service
  */
 
-module.exports = {
-  find(params, populate) {
-    console.log("Service called...");
-    return strapi.query("product").find(params, populate);
-  }
-};
+module.exports = {};

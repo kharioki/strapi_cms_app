@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * Lifecycle callbacks for the `product` model.
@@ -27,7 +27,10 @@ module.exports = {
 
   // After fetching all values.
   // Fired after a `fetchAll` operation.
-  // afterFetchAll: async (model, response, options) => {},
+  afterFetchAll: async (model, response, options) => {
+    console.log("After fetch...");
+    console.log(response);
+  }
 
   // Before creating a value.
   // Fired before an `insert` query.

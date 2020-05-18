@@ -1,3 +1,3 @@
-# Strapi application
+## Strapi application
 
-A quick description of your strapi application
+A simple CMS built with Strapi
